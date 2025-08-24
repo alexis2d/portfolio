@@ -10,9 +10,9 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full bg-gray-800 shadow-md z-50">
-      <h1 className="text-2xl font-bold text-indigo-400">Alexis2D</h1>
-      <div className="max-w-6xl mx-auto px-6 py-4 flex flex-row justify-center">
+    <nav className="w-full shadow-md z-50 bg-gray-100 dark:bg-gray-900">
+      <h1 className="text-2xl font-bold">Alexis2D</h1>
+      <div className="max-w-6xl mx-auto px-6 py-4 flex flex-row justify-center space-x-10">
         {links.map(({ path, label }) => (
           <Link
             key={path}

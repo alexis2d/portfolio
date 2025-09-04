@@ -30,9 +30,9 @@ export default function Projects() {
       {activeDiv === "work" && (
         <div>
         <Link to="https://www.emiles.fr" target="_blank">
-          <div className="bg-gray-600 hover:bg-gray-500 dark:bg-gray-200 dark:hover:bg-gray-100 rounded-xl p-4 shadow-md">
-            <h3 className="text-xl font-bold text-gray-200 dark:text-gray-800">Emile's</h3>
-            <p className="text-gray-100 dark:text-gray-700">
+          <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow-md link">
+            <h3 className="text-xl font-bold">Emile's</h3>
+            <p>
               C'est littérallement le projet de ma (courte) carrière !<br></br><br></br>
               Présent depuis environ 4 ans (d'abord en alternance puis en CDI), j'ai évolué en même temps que l'entreprise et le projet, ce qui m'a permis d'être là où j'en suis 👌<br></br><br></br>
               Projet multiple<br></br>

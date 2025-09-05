@@ -52,7 +52,7 @@ button:hover, a.button:hover, .link:hover {
 }
 button:focus,
 button:focus-visible, 
-a.button:focus, a.button:focus-visible {
+a.button:focus, a.button:focus-visible, .selected {
   outline: 4px auto -webkit-focus-ring-color;
 }
 

@@ -52,7 +52,7 @@ export default function Projects() {
   return (
     <section className="max-w-5xl mx-auto mt-10">
       <h2 className="text-3xl font-bold text-indigo-400 mb-6">Mes Projets</h2>
-      <div className="flex gap-2 mb-4 justify-center">
+      <div className="flex flex-col md:flex-row gap-2 mb-4 justify-center">
         {projetcTypes.map((type) => (
           <button 
           key={type.value}
@@ -68,7 +68,7 @@ export default function Projects() {
           <Link key={project.title} to={project.link} target="_blank">
             <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow-md relative link">
               <p className="bg-indigo-400 dark:bg-indigo-100 text-gray-100 dark:text-indigo-800 text-sm top-0 right-0 p-3 rounded-bl-lg rounded-tr-lg absolute">{project.date}</p>
-              <h3 className="text-xl font-bold">{project.title}</h3>
+              <h3 className="text-xl text-left md:text-center font-bold">{project.title}</h3>
               <br/><hr/><br/>
               <p dangerouslySetInnerHTML={{ __html: project.description }}></p>
               <br/><hr/><br/>

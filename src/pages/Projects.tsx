@@ -15,7 +15,7 @@ export default function Projects() {
       type: "work", 
       date: "2021 - Aujourd'hui",
       title: "Emile's", 
-      description: "C'est littérallement le projet de ma (courte) carrière !<br/><br/>Présent depuis environ 4 ans (d'abord en alternance puis en CDI), j'ai évolué en même temps que l'entreprise et le projet, ce qui m'a permis d'être là où j'en suis 👌", 
+      description: "C'est littérallement le projet de ma (courte) carrière !<br/><br/>Présent depuis environ 4 ans (d'abord en alternance puis en CDI), j'ai évolué en même temps que l'entreprise et le projet, ce qui m'a permis d'être là où j'en suis 👌<br/><br/><hr/><br/>Avec une API en Laravel ainsi qu'un site e-commerce en PrestaShop, j'ai pu consolider mes connaissances au fil des projets (tels que, pour n'en cité que quelques un, un module personnalisé de Cross-Selling, le branchement à des API partenaires, l'ajout de moyens de paiement, etc).<br/><br/>Toutes ces expériences accompagnées de collègues compétents mon permis de devenir un réel développeur web confirmé 💪", 
       technos : ["Laravel", "PrestaShop", "AWS", "MySQL"],
       link: "https://www.emiles.fr"
     },
@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <section className="max-w-5xl mx-auto mt-10">
-      <h2 className="text-3xl font-bold text-indigo-400 mb-6">Mes Projets</h2>
+      <h2 className="text-3xl font-bold text-indigo-400 mb-6">Mes Projets*</h2>
       <div className="flex flex-col md:flex-row gap-2 mb-4 justify-center">
         {projetcTypes.map((type) => (
           <button 
@@ -79,6 +79,7 @@ export default function Projects() {
           </Link>
         ))}
       </div>
+      <p className="text-sm text-gray-400 ml-2 text-left">*Liste non exhaustive</p>
     </section>
   );
 }

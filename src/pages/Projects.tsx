@@ -49,7 +49,7 @@ export default function Projects() {
       title: "OIIA Cat Game", 
       description: "Le jeu vidéo, c'est ma passion première, alors évidemment, après des années d'expérience dans le développement, je me suis enfin lancé dans le GameDev !<br/><br/>La vidéo jointe est une petite preview de mon premier projet sous Unity, un plateformer 3D basé sur un meme assez récent.<br/><br/>C'est un projet crash test, il m'a permis d'apprendre à utiliser Unity (merci les dizaines de tutos YouTube que j'ai bouffés 👌) ainsi que d'appréhender le C#. J'ai maintenant plein d'idées pour la suite !", 
       technos : ["Unity", "C#"],
-      link: "/src/assets/first-preview-oiia.mp4"
+      link: "https://youtu.be/Nr0Uu5MX3JE"
     },
     {
       type: "school", 

@@ -15,15 +15,15 @@ export default function Projects() {
       type: "work", 
       date: "2021 - Aujourd'hui",
       title: "Emile's", 
-      description: "C'est littérallement le projet de ma (courte) carrière !<br/><br/>Présent depuis environ 4 ans (d'abord en alternance puis en CDI), j'ai évolué en même temps que l'entreprise et le projet, ce qui m'a permis d'être là où j'en suis 👌<br/><br/><hr/><br/>Avec une API en Laravel ainsi qu'un site e-commerce en PrestaShop, j'ai pu consolider mes connaissances au fil des projets (tels que, pour n'en cité que quelques un, un module personnalisé de Cross-Selling, le branchement à des API partenaires, l'ajout de moyens de paiement, etc).<br/><br/>Toutes ces expériences accompagnées de collègues compétents mon permis de devenir un réel développeur web confirmé 💪", 
-      technos : ["Laravel", "PrestaShop", "AWS", "MySQL"],
+      description: "Il s'agit de la référence des plateformes avantages pour CSE : c'est le projet de ma carrière !<br/><br/>Pendant ces 5 dernières années, j'ai évolué en même temps que l'entreprise et le projet, ce qui m'a permis d'être là où j'en suis 👌<br/><br/><hr/><br/>Avec une API en Laravel ainsi qu'un site e-commerce en PrestaShop, j'ai pu consolider mes connaissances au fil des projets (tels que, pour n'en cité que quelques un, un module personnalisé de Cross-Selling, le branchement à des API partenaires, l'ajout de moyens de paiement, etc).<br/><br/>Toutes ces expériences accompagnées de collègues compétents mon permis de devenir un réel développeur web confirmé 💪<br/><br/><hr/><br/>Cette année marque un tournant pour Emile's : une refonte totale. Qui dit refonte, dit nouvelles technologies ! React et Symfony/Sylius sont au rendez-vous, sur lesquels j'ai été formés et avec lesquels je travaille quotidiennement.", 
+      technos : ["Laravel", "PrestaShop", "Sylius", "React", "AWS", "SQL"],
       link: "https://www.emiles.fr"
     },
     {
       type: "self", 
       date: "2025",
       title: "Portfolio", 
-      description: "Bah oui, on est dessus, mais bon...<br/><br/>En tout cas, j\'ai réalisé ce portfolio avant tout pour m\'introduire à React, mais également parce que c'est un projet que j'ai en tête depuis un certains temps.", 
+      description: "Bah oui, on est dessus, mais bon...<br/><br/>En tout cas, j\'ai réalisé ce portfolio avant tout pour m\'introduire à React.", 
       technos : ["React", "TailwindCSS"],
       link: "https://github.com/alexis2d/portfolio"
     },
@@ -38,6 +38,14 @@ export default function Projects() {
     {
       type: "self", 
       date: "2025",
+      title: "OIIA Cat Game", 
+      description: "Le jeu vidéo, c'est ma passion première, alors évidemment, après des années d'expérience dans le développement, je me suis enfin lancé dans le GameDev !<br/><br/>La vidéo jointe est une petite preview de mon premier projet sous Unity, un plateformer 3D basé sur un meme assez récent.<br/><br/>C'est un projet crash test, il m'a permis d'apprendre à utiliser Unity (merci les dizaines de tutos YouTube que j'ai bouffés 👌) ainsi que d'appréhender le C#. J'ai maintenant plein d'idées pour la suite !", 
+      technos : ["Unity", "C#"],
+      link: "https://youtu.be/Nr0Uu5MX3JE"
+    },
+    {
+      type: "self", 
+      date: "2025",
       title: "Project Azluna", 
       description: "A la base un projet pour un Game Jam (Live2D Game Jam), j'ai décidé de continuer à développer ce petit visual novel après l'évènement.<br/><br/>C'était mon premier Game Jam et également mon premier projet de jeu vidéo en étant accompagné, ce qui est bien plus motivant !", 
       technos : ["Unity", "C#"],
@@ -45,11 +53,11 @@ export default function Projects() {
     },
     {
       type: "self", 
-      date: "2025",
-      title: "OIIA Cat Game", 
-      description: "Le jeu vidéo, c'est ma passion première, alors évidemment, après des années d'expérience dans le développement, je me suis enfin lancé dans le GameDev !<br/><br/>La vidéo jointe est une petite preview de mon premier projet sous Unity, un plateformer 3D basé sur un meme assez récent.<br/><br/>C'est un projet crash test, il m'a permis d'apprendre à utiliser Unity (merci les dizaines de tutos YouTube que j'ai bouffés 👌) ainsi que d'appréhender le C#. J'ai maintenant plein d'idées pour la suite !", 
+      date: "2026",
+      title: "Project Portalz", 
+      description: "Fan du dessin animé et jeu vidéo Wakfu et fan de platformers, j'ai décidé de tenter un mix en créant un platformer 2D dont la mécanique principale est : les portails.", 
       technos : ["Unity", "C#"],
-      link: "https://youtu.be/Nr0Uu5MX3JE"
+      link: "https://github.com/alexis2d/ProjectPortalz"
     },
     {
       type: "school", 

@@ -63,9 +63,9 @@ export default function Projects() {
       type: "self", 
       date: "2026",
       title: "Foodtracker", 
-      description: "Gestion des calories.", 
+      description: "Le site qui t'aide à gérer ton alimentation au quotidien.", 
       technos : ["React", "Symfony"],
-      link: "https://github.com/alexis2d/foodtracker"
+      link: "https://foodtracker.alexis2d.fr/"
     },
     {
       type: "school", 

@@ -60,6 +60,14 @@ export default function Projects() {
       link: "https://github.com/alexis2d/ProjectPortalz"
     },
     {
+      type: "self", 
+      date: "2026",
+      title: "Foodtracker", 
+      description: "Gestion des calories.", 
+      technos : ["React", "Symfony"],
+      link: "https://github.com/alexis2d/foodtracker"
+    },
+    {
       type: "school", 
       date: "2023",
       title: "Appli Météo", 
